@@ -1,0 +1,136 @@
+body{
+    width: 1500px;
+    height: 100px;
+}
+
+article{
+    padding: 20px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+li{
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-top: 70px;
+    color: #7D7D7D;
+
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+li:hover{
+    color:#03A9F4;
+}
+
+h4, h2, p{
+    width: 408px;
+    height: 40px;
+}
+
+img{
+    display: flex;
+    width: 420px;
+    height: 280px;
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+}
+
+h2{
+    margin-top: 5px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+
+p{
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+}
+.one{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 65px;
+    padding-bottom: 200px;
+}
+.two{
+    display: flex;
+    padding-left: 65px;
+    padding-bottom: 200px;
+}
+.three{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 65px;
+    padding-bottom: 200px;
+}
+.four{
+    display: flex;
+    padding-left: 65px;
+    padding-bottom: 200px;
+}
+.five{
+    display: flex;
+    margin-left: 670px;
+    padding-bottom: 58px;
+    padding-top: 0;
+    justify-content: center;
+    width: 165px;
+    height: 60px;
+}
+
+.six{
+    display: flex;
+    align-items: center;
+    width: 165px;
+    height: 60px;
+    justify-content: center;
+
+    background-color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #626262;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

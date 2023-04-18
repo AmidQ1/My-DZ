@@ -1,0 +1,42 @@
+/*ONE*/
+
+h3{
+    font-size: 50px;
+}
+
+.h3_1:first-letter{
+    color: red;
+}
+
+.h3_2::before{
+    content: "[";
+}
+
+.h3_2::after{
+    content: "]";
+}
+
+span::before{
+    content: "(";
+}
+
+span::after{
+    content: ")";
+}
+
+/*TWO*/
+
+.block {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url("https://mistomariupol.com.ua/wp-content/uploads/2021/03/116694354_3356755151013496_448956843075871795_o.jpg");
+
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100px 100px;
+}
+
+
+
+
